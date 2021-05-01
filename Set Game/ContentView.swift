@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            CardShapes.Lozenge()
+            CardShapes.Squiggle()
+            CardShapes.Diamond()
+        }
     }
 }
 
