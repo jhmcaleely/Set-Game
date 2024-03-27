@@ -14,6 +14,7 @@
 		D98C540A26221240008BE87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C540926221240008BE87E /* Assets.xcassets */; };
 		D98C540D26221240008BE87E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C540C26221240008BE87E /* Preview Assets.xcassets */; };
 		D9EE4D4F263EEBF7001C5A67 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE4D4E263EEBF7001C5A67 /* SetCard.swift */; };
+		D9EE4D52263EEC19001C5A67 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE4D51263EEC19001C5A67 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D98C540C26221240008BE87E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D98C540E26221240008BE87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9EE4D4E263EEBF7001C5A67 /* SetCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		D9EE4D51263EEC19001C5A67 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				D98C54052622123E008BE87E /* Set_GameApp.swift */,
 				D98C54072622123E008BE87E /* ContentView.swift */,
+				D9EE4D51263EEC19001C5A67 /* CardView.swift */,
 				D9EE4D4E263EEBF7001C5A67 /* SetCard.swift */,
 				D98062B8263DC0AC00B33989 /* CardShapes.swift */,
 				D98062B5263DBF2500B33989 /* CardGeometry.swift */,
@@ -151,6 +154,7 @@
 				D98062B6263DBF2500B33989 /* CardGeometry.swift in Sources */,
 				D98062B9263DC0AC00B33989 /* CardShapes.swift in Sources */,
 				D98C54082622123E008BE87E /* ContentView.swift in Sources */,
+				D9EE4D52263EEC19001C5A67 /* CardView.swift in Sources */,
 				D98C54062622123E008BE87E /* Set_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
